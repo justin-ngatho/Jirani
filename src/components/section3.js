@@ -10,9 +10,10 @@ export default function SectionThree() {
             <div class="row">
               <div class="col-sm-12">
                 <div class="title-box text-center">
-                  <h3 class="title-a">Services Offered</h3>
+                  <h3 class="title-a">Get Involved</h3>
                   <p class="subtitle-a">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Your support is vital in making a difference! 
+                  Whether you are an individual or an organization, there are many ways you can contribute
                   </p>
                   <div class="line-mf"></div>
                 </div>
@@ -29,7 +30,7 @@ export default function SectionThree() {
                   <div class="service-content">
                     <h2 class="s-title">Volunteerism</h2>
                     <p className="s-description text-center">
-                    You are most welcome to come and volunteer your time and skills.
+                    Join our team and support local projects, from tree planting to health campaigns.
                     </p>
                     <Button>Apply</Button>
                   </div>
@@ -43,9 +44,9 @@ export default function SectionThree() {
                     </span>
                   </div>
                   <div class="service-content">
-                    <h2 class="s-title">In-Kind Support</h2>
+                    <h2 class="s-title">	Donate</h2>
                     <p class="s-description text-center">
-                    You can donate farming tools and equipment to support the farmers.
+                    Help fund our reforestation, clean water, and healthcare programs.
                     </p>
                     <Button>Donate</Button>
                   </div>
@@ -59,9 +60,9 @@ export default function SectionThree() {
                     </span>
                   </div>
                   <div class="service-content">
-                    <h2 class="s-title">Financial Support</h2>
+                    <h2 class="s-title">Advocate</h2>
                     <p class="s-description text-center">
-                    You can also offer financial support to enable us run these programs
+                    Spread the word about climate change and health equity in rural areas.
                     </p>
                     <Button>Donate</Button>
                   </div>

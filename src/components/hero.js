@@ -9,8 +9,8 @@ export default function Hero ()
     {
       id: 1,
       imageUrl: "./images/home1.jpg",
-      caption: 'Image 1',
-      captionText: 'Our history is not the past, its the future',
+      caption: 'Jirani Fund',
+      captionText: 'is an organization dedicated to addressing the pressing challenges of climate change, environmental management, and improving access to health services in the rural parts of Western Kenya',
       buttonText: 'Core Values', // Button text
       buttonLink: '/learn-more'     
 
@@ -18,8 +18,8 @@ export default function Hero ()
     {
       id: 2,
       imageUrl: './images/home3.jpg',
-      caption: 'Image 2',
-      captionText: 'Our history is not the past, its the future',
+      caption: 'Climate Change and Environmental Management',
+      captionText: 'Jirani Fund is at the forefront to mitigate the adverse impacts of environmental degradation through community-based initiatives',
       buttonText: 'Featured Projects', // Button text
     buttonLink: '/learn-more' 
 
@@ -27,8 +27,8 @@ export default function Hero ()
     {
       id: 3,
       imageUrl: './images/home4.jpg',
-      caption: 'Image 3',
-      captionText: 'Our history is not the past, its the future',
+      caption: 'Access to Health Services',
+      captionText: 'In addition to its environmental efforts, Jirani Fund plays a pivotal role in improving access to health services in the rural parts of Western Kenya, where healthcare infrastructure is often lacking.',
       buttonText: 'Youth Programs', // Button text
     buttonLink: '/learn-more' 
     },
@@ -55,9 +55,7 @@ export default function Hero ()
             className={`carousel-item ${index === activeIndex ? 'active' : ''}`}
           >
             <div className="img-container">
-            <img src={slide.imageUrl} className="d-block w-100" alt={slide.caption} style={{
-              width:"auto", 
-              height:"100%",}} />
+            <img src={slide.imageUrl} className="d-block w-100" alt={slide.caption}  />
             </div>
             
             <div className="carousel-caption">

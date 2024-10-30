@@ -10,21 +10,18 @@ export default function Footer () {
             <div className="col-md-6"> 
                 <div className="row justify-content-center py-3">
                 <div className="col-md-4 mb-3"> 
-                    <img src="./images/logo.jpeg" style={{
+                    <img src="" alt="image" style={{
                         width:"100px"
                     }}/>    
                 </div> 
                 <div className="col-md-4">
-                        <ul style={{
-                            listStyleType: "none",
-                        }}>
-                            <li>About Us</li>
+                
+                            <p>About Us</p>
                             <br/>
-                            <li>Contact us</li>
+                            <p>Contact us</p>
                             <br/>
-                            <li>Donate</li>
+                            <p>Donate</p>
                             <br/>
-                        </ul>
                 </div>
                 </div>
                 </div> 

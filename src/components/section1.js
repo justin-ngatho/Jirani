@@ -64,15 +64,16 @@ const animateNumber = (start, end, duration, callback) => {
 
 export default function SectionOne () {
     return (
-      <div className="section-one">
-        <div className="section-one-container">
+      <div className="section-one mt-0">
+        <div className="row g-1">
         <section id="service" class="services-mf route">
-          <div className="row px-3">
+          <div className='container'>
+          <div className="row">
             <div className="col-sm-12">
               <div className='title-box text-center'>
               <h1 class="title-a">Jirani Fund</h1>
               <br/>
-              <p className='subtitle-a'>
+              <p className='text-center '>
                 At Jirani Fund, we are committed to building sustainable
                 communities by addressing climate change, promoting
                 environmental conservation, and improving access to essential
@@ -83,7 +84,7 @@ export default function SectionOne () {
               </div>
               </div>
               </div>
-              </section>
+              
                 <div className="row g-3 align-items-center justify-content-center px-3">
                   <div className="col-md-3">
                     <img
@@ -189,6 +190,8 @@ export default function SectionOne () {
                   </div>
                   </div>
                 </div>
+                </div>
+                </section>
         </div>
       </div>
     );
