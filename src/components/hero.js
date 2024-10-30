@@ -11,13 +11,10 @@ export default function Hero ()
       imageUrl: "./images/home1.jpg",
       caption: 'Jirani Fund',
       captionText: 'is an organization dedicated to addressing the pressing challenges of climate change, environmental management, and improving access to health services in the rural parts of Western Kenya',
-      buttonText: 'Core Values', // Button text
-      buttonLink: '/learn-more'     
-
     },
     {
       id: 2,
-      imageUrl: './images/home3.jpg',
+      imageUrl: './images/home4.jpg',
       caption: 'Climate Change and Environmental Management',
       captionText: 'Jirani Fund is at the forefront to mitigate the adverse impacts of environmental degradation through community-based initiatives',
       buttonText: 'Featured Projects', // Button text
@@ -60,9 +57,7 @@ export default function Hero ()
             
             <div className="carousel-caption">
               <h2>{slide.caption}</h2>
-              <br/>
-              <h4>{slide.captionText}</h4>
-              <br/>
+              <p>{slide.captionText}</p>
               <Button>{slide.buttonText}</Button> <br/>
             </div>
           </div>
